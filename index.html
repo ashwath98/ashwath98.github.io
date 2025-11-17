@@ -20,10 +20,12 @@
             <tr style="padding:0px">
               <td style="padding:2.5%;width:63%;vertical-align:middle">
                 <p class="name" style="text-align: center;">
-                  Ashwath Shetty
+                  Ashwath Shetty (New Cursor Powered website Coming Soon)
                 </p>
-                <p>I'm a Research Assistant at the <a>Computer Vision and Machine Learning Department</a>, at the Max Planck Insitute working with <a href="https://fischerjo.github.io/">Jonas Fischer</a> on understanding the effect of sparsity on network intepretibility . </p>
-                  <p>Before that, I did my Masters Thesis student at  the <a>Visual Computing and AI Department</a>, at the Max Planck Insitute in  Saarbrücken. I did my thesis working on Real time photorealistic telepresence with <a href="https://people.mpi-inf.mpg.de/~mhaberma/"> Marc Habermann</a> and <a href="https://people.mpi-inf.mpg.de/~theobalt/"> Christian Theobalt</a>. Previosly I worked as Research Assistant under Avinash Sharma on 3D Performance Capture at the <a href="https://cvit.iiit.ac.in/">CVIT Lab in IIIT Hyderabad</a>. I got my Bachelor degree from beautiful MIT Manipal Karnataka, and did my bachelors thesis at IIT Bombay under <a href="https://www.cse.iitb.ac.in/~ganesh/">Ganesh Ramakrishnan</a>.</p>
+                <p>I'm an incoming PhD student at UdeM and MILA under Noam Aigermann working on Neural Geometry Processing </p>
+                  <p>Before this, I was a visiting researcher under Prof <a href="https://www.vcai-lab.org/">Soren Pirk </a> at Kiel University where I worked on time independent diffusion models and discrete prompt inversion, and prior I spend some
+                     time doing XAI the <a>Computer Vision and Machine Learning Department</a>, and full body avatars at the <a>Visual Computing and AI Department</a>, at the Max Planck Insitute in  Saarbrücken, 
+                     where I did my masters thesis on virtual avatars (the animation in my profile picture is my thesis :). Previosly I worked as Research Assistant under Avinash Sharma on 3D Performance Capture at the <a href="https://cvit.iiit.ac.in/">CVIT Lab in IIIT Hyderabad</a>. I got my Bachelor degree from beautiful MIT Manipal Karnataka, and did my bachelors thesis at IIT Bombay under <a href="https://www.cse.iitb.ac.in/~ganesh/">Ganesh Ramakrishnan</a>.</p>
                 <p> <b>Hobbies and free time activities:</b>Running, Meditation, Hiking, Martial Arts, Wind instruments (Bamboo Flute and Harmonica), Irish Dancing, Chess (I'm just average in all of them :))</p>
                 <p style="text-align:center">
                   <a href="mailto:shettyashwath2010@gmail.com">Email</a> &nbsp;/&nbsp;
@@ -48,7 +50,46 @@
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-
+            <tr onmouseout="promptpirate_stop()" onmouseover="promptpirate_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                <div class="two" id='promptpirate_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/methodology_figure_page-0001.jpg" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                  <img src='images/methodology_figure_page-0001.jpg' width=100% height=100%>
+                </div>
+                <script type="text/javascript">
+                  function promptpirate_start() {
+                    document.getElementById('promptpirate_image').style.opacity = "1";
+                  }
+            
+                  function promptpirate_stop() {
+                    document.getElementById('promptpirate_image').style.opacity = "0";
+                  }
+                  promptpirate_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://arxiv.org/abs/2509.09488">
+                  <span class="papertitle">Prompt Pirates Need a Map: Stealing Seeds helps Stealing Prompts
+            </span>
+                </a>
+                <br>
+                <a href="">Felix Mächtle</a>,
+                <strong>Ashwath Shetty</strong>,
+                <a href="">Jonas Sander</a>,
+                <a href="">Nils Loose</a>,
+                <a href="https://www.vcai-lab.org/">Sören Pirk</a>,
+                <a href="">Thomas Eisenbarth</a>
+              <em><a href="https://arxiv.org/abs/2509.09488">arXiv</a></em>, 2025
+                <br>
+                <p></p>
+                <p>
+               Investigated prompt-stealing attacks on diffusion models, revealing a noise-generation vulnerability (CWE-339) that enables seed recovery. Introduced SeedSnitch for seed brute-forcing and PromptPirate, a genetic algorithm-based optimization method that achieves 8-11% improvement in LPIPS similarity over state-of-the-art prompt stealing methods.
+                </p>
+              </td>
+            </tr>      
 <tr onmouseout="difsurvey_stop()" onmouseover="difsurvey_start()">
   <td style="padding:20px;width:25%;vertical-align:middle">
     <div class="one">
@@ -152,9 +193,19 @@
           </tbody></table>
           <table width="100%" align="center" border="0" cellpadding="20"><tbody>
             <tr>
+              <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/kiel-logo.png"></td>
+              <td width="75%" valign="center">
+                <p > <b> Research Assistant at the Kiel University </b> ( supervised by Soren Pirk) (Jan 2025-August 2025)</p>
+          <br><ul>
+                <li> <b>Time independent diffusion models </b> Worked on a new forward and backward process for diffusion models, that don't take time as a conditioning signal </li>
+                <li> <b>Discrete prompt inversion </b>Worked a discrete prompt inversion method for Prompt Stealing </li>
+              </ul>
+              </td>
+            </tr>
+            <tr>
               <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/mpi-logo-en.svg"></td>
               <td width="75%" valign="center">
-                <p > <b> Research Assistant at the CVML Department, Max Planck Insitute for Informatics </b> ( supervised by Jonas Fischer) (March 2024 -Present)</p>
+                <p > <b> Research Assistant at the CVML Department, Max Planck Insitute for Informatics </b> ( supervised by Jonas Fischer) (March 2024 -December 2024)</p>
           <br><ul>
                 <li> <b>Sparse Compositional interpretibility </b>Understanding the link between sparsity
                   and interpretability, and using a sparse network to read off a networks decision making process </li>
